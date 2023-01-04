@@ -18,7 +18,7 @@ const AddTask = () => {
     <section className="my-5">
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Task title</Form.Label>
+        <Form.Label>Task Title</Form.Label>
         <Form.Control type="text" placeholder="Enter Task Title" value={title}
          onChange={(e) => setTitle(e.target.value)}/>
       </Form.Group>
