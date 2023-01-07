@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { addTaskToList } from "../slices/tasksSlice";
+import {useDispatch} from 'react-redux'
 
 const AddTask = () => {
 
-    
+    const dispatch = useDispatch()
 
     const [title,setTitle] = useState('')
     const [description,setDescription] = useState('')
@@ -13,6 +15,9 @@ const AddTask = () => {
     const addTask = (e) => {
         e.preventDefault()
         console.log({title,description})
+        dispatch(addTaskToList({title,description}))
+        setTitle('')
+        setDescription('')
     }
   return (
     <section className="my-5">
