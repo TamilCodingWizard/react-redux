@@ -1,14 +1,19 @@
 {
-    "tasks": [
-        {
-            "id":1,
-            "title":"Home Screen",
-            "description":"Develop Home Screen"
-        },
-        {
-            "id":2,
-            "title":"About Screen",
-            "description":"Develop About Screen"
-        }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Home Screen",
+      "description": "Develop Home Screen"
+    },
+    {
+      "id": 2,
+      "title": "About Screen",
+      "description": "Develop About Screen"
+    },
+    {
+      "title": "Docs",
+      "description": "Complete Docs",
+      "id": 3
+    }
+  ]
 }
