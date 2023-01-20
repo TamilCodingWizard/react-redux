@@ -4,16 +4,6 @@
       "id": 1,
       "title": "Home Screen",
       "description": "Developing"
-    },
-    {
-      "id": 2,
-      "title": "About Screen",
-      "description": "Develop About Screen"
-    },
-    {
-      "title": "Docs",
-      "description": "Completed",
-      "id": 3
     }
   ]
 }
